@@ -3,9 +3,13 @@ import './style.css';
 import { initializeApp } from 'firebase/app';
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-
+import { NavigationContainer, StackActions } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { RootStackParamsList } from './screens/RootStackParams';
 
 import { HomeScreen } from './screens/home';
+
+
 
   const firebaseConfig = {
     apiKey: "AIzaSyBwW8H1NiKnG8k4x3VZo-PJIp-GSMlI1Ck",
@@ -22,9 +26,14 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
+const Stack = createStackNavigator<RootStackParamsList>();
 
 export default function App() {
   return (
-    <HomeScreen />
+    <NavigationContainer >
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Home" component={HomeScreen}/>
+    </Stack.Navigator>
+  </NavigationContainer>
   );
 }
