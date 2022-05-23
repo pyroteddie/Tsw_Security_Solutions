@@ -1,23 +1,17 @@
 import * as React from 'react';
+import ReactDOM from 'react-dom';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { NavigationContainer, StackActions } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { RootStackParamsList } from './screens/RootStackParams';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import App from './App';
-import { HomeScreen } from './screens/home';
-
+import HomeScreen from './screens/home';
+import AboutScreen from './screens/about';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
-const Stack = createStackNavigator<RootStackParamsList>();
 
-root.render(
-  <StrictMode>
-        <NavigationContainer >
-          <Stack.Navigator >
-            <Stack.Screen name="Home" component={HomeScreen}/>
-          </Stack.Navigator>
-        </NavigationContainer>
-  </StrictMode>
+
+ReactDOM.render(
+  <App />,
+    document.getElementById('root')
 );

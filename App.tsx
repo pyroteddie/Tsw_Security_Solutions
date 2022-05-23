@@ -3,12 +3,9 @@ import './style.css';
 import { initializeApp } from 'firebase/app';
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import { NavigationContainer, StackActions } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { RootStackParamsList } from './screens/RootStackParams';
-
-import { HomeScreen } from './screens/home';
-
+import {  BrowserRouter as Router,  Routes,  Route,  Link} from "react-router-dom";
+import HomeScreen from './screens/home';
+import Header from './components/header'
 
 
   const firebaseConfig = {
@@ -26,14 +23,17 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
-const Stack = createStackNavigator<RootStackParamsList>();
 
 export default function App() {
   return (
-    <NavigationContainer >
-    <Stack.Navigator screenOptions={{headerShown: false}}>
-      <Stack.Screen name="Home" component={HomeScreen}/>
-    </Stack.Navigator>
-  </NavigationContainer>
-  );
+    <Router>
+    <div>
+    <Header/>
+   <hr  />
+      <Routes>
+        <Route exact path="/" element={< HomeScreen/>}/> 
+      </Routes>
+    </div>
+  </Router>
+);
 }

@@ -15,7 +15,8 @@
     "react-native-gesture-handler": ">= 1.0.0",
     "react-native-safe-area-context": ">= 3.0.0",
     "react-native-screens": ">= 3.0.0",
-    "react-native-web": "^0.17.7"
+    "react-native-web": "^0.17.7",
+    "react-router-dom": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",

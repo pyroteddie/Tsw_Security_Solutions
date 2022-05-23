@@ -1,3 +1,40 @@
 h1, p {
   font-family: Lato;
 }
+.MenuBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  
+}
+.MenuName{
+  display: flex;
+  justify-self: start;
+}
+.MenuLinks{
+  display: flex;
+  justify-self: end;
+}
+.Link{
+  margin: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  color: white;
+}
+
+.ServicesSection{
+  background-color: rgba(0, 79, 136, .05);
+  border: 1.5px solid rgba(0, 55, 95, .25);
+  min-height: 350px;
+}
+body{ padding:0px;margin: 0px;}
+section{min-height: 240px;}
+.Footer{
+  background-image: linear-gradient(135deg, rgb(1,136,211) 78%, rgb(0,79,136)78%);
+}
+.GallerySection{
+  background-color: rgba(196, 196, 196, 1);
+  border: 1.5px solid rgba(0, 55, 95, .25);
+}
