@@ -7,11 +7,21 @@ h1, p {
   align-items: center;
   width: -webkit-fill-available;
   justify-content: space-between;
-  
+  position: absolute;
+  top:0px;
+}
+.HeaderImg{
+width: -webkit-fill-available;
+
 }
 .MenuName{
   display: flex;
   justify-self: start;
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  font-size: 24px;
+  margin-left: 20px;
 }
 .MenuLinks{
   display: flex;
@@ -20,17 +30,59 @@ h1, p {
 .Link{
   margin: 5px;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2.5px;
   color: white;
+}
+
+.ServiceItem_1, .ServiceItem_2, .ServiceItem_3{
+  display: flex;
+  background: url(https://firebasestorage.googleapis.com/v0/b/tswsecuritysolutions.appspot.com/o/MainPage%2FAssetPro.png?alt=media&token=e7c25339-2ae7-4f5e-bf3d-347c30246521) no-repeat left center;
+  height: 250px;
+  width: 250px;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 20%) 4px 4px 4px;
+  margin: 5px;
+}
+.ServiceItem_2{
+  background: url(https://firebasestorage.googleapis.com/v0/b/tswsecuritysolutions.appspot.com/o/MainPage%2FDrug.png?alt=media&token=2314e038-280d-43ed-a847-d8b5ae62fdfa) no-repeat left center;
+ 
+}
+.ServiceItem_3{
+  background: url(https://firebasestorage.googleapis.com/v0/b/tswsecuritysolutions.appspot.com/o/MainPage%2FStatic.png?alt=media&token=e9fc2340-fbd1-48ad-8b74-df2288cfea16) no-repeat left center;
+
+}
+
+.ServiceLabel{
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  width: -webkit-fill-available;
+  text-align-last: center;
+  padding: 20px;
+}
+.ServiceLabel:hover{
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
 }
 
 .ServicesSection{
   background-color: rgba(0, 79, 136, .05);
   border: 1.5px solid rgba(0, 55, 95, .25);
   min-height: 350px;
+  display: flex;
+flex-direction: row;
 }
 body{ padding:0px;margin: 0px;}
-section{min-height: 240px;}
+section{
+  min-height: 240px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+
+}
 .Footer{
   background-image: linear-gradient(135deg, rgb(1,136,211) 78%, rgb(0,79,136)78%);
 }
