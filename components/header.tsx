@@ -14,7 +14,7 @@ export default function Header() {
           <a className='Link'><Link style={{color:'white'}} to="/">Home</Link></a>
           <a className='Link'><Link style={{color:'white'}} to="/about">About</Link></a>
           <a className='Link'><Link style={{color:'white'}} to="/services">Our Services</Link></a>
-          <a className='Link'><Link style={{color:'white'}} to="Contact">Contact Us</Link></a>
+          <a className='Link'><Link style={{color:'white'}} to="/contact">Contact Us</Link></a>
         </div>
         
       </div>

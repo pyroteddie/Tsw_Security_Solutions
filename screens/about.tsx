@@ -5,8 +5,8 @@ import '../style.css';
 export default function AboutScreen() {
     return (
       <div>
-        <h1>Hello StackBlitz!</h1>
-        <p>Start editing to see some magic happen </p>
+        <h1>About Us </h1>
+        <p>TSW Security Solutions</p>
       </div>
     );
   }

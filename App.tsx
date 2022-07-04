@@ -8,6 +8,7 @@ import HomeScreen from './screens/home';
 import Header from './components/header'
 import ServicesScreen from './screens/services'
 import AboutScreen from './screens/about'
+
   const firebaseConfig = {
     apiKey: "AIzaSyBwW8H1NiKnG8k4x3VZo-PJIp-GSMlI1Ck",
     authDomain: "tswsecuritysolutions.firebaseapp.com",
@@ -31,8 +32,9 @@ export default function App() {
     <Header/>
       <Routes>
         <Route exact path="/" element={< HomeScreen/>}/> 
-        <Route exact path='/services' element={<ServicesScreen/>}/>
-        <Route eaxct path='/about' elememt={<AboutScreen/>} />
+        <Route exact path='/services' element={ <ServicesScreen/> } />
+        <Route exact path='/about' element={ <AboutScreen/> } />
+        
       </Routes>
     </div>
   </Router>
