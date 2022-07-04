@@ -14,9 +14,13 @@ export default function ServicesScreen() {
         </div>
         <div className='DivBox'>
         <h2>Assest Protection</h2>
+        <p>In meeting client specific needs, we offer on-site alcohol and other drugs testing.
+              The on-site testing We offer provides for the use of quality assured test devices, standardised and supervised/observed collections, accurate interpretation by experienced collectors and quick turn-around times for results.</p>
         </div>
         <div className='DivBox'>
         <h2>Static Gaurd</h2>
+        <p>In meeting client specific needs, we offer on-site alcohol and other drugs testing.
+              The on-site testing We offer provides for the use of quality assured test devices, standardised and supervised/observed collections, accurate interpretation by experienced collectors and quick turn-around times for results.</p>
         </div>
 
       </div>
