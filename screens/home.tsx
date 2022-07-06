@@ -6,8 +6,8 @@ export default function HomeScreen() {
     return (
       <div>
         <section>
-        <h1>TSW Security Solutions</h1>
-        <p>Start editing to see some magic happen </p>
+        <h1>TSW Security Solutions - Your North Queensland Security Experts</h1>
+        <p>Since 2016, TSW Security Solutions has been providing exceptional security services in the Cairns and surrounding region.  Family owned and operated, TWS is well equipped to assist with your business or event security needs, and we welcome your enquiry.</p>
         </section>
         <section className='ServicesSection'>
         <a className='ServiceItem_1'>
