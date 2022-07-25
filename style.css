@@ -1,14 +1,14 @@
 
 html{
-  background-color: rgba(1, 136, 211,.005);
+  background-color: #8ab8d111
 }
 h1{
   font-family: Lato;
   font-size: 26px;
 }
 .Sec1_blub{
-  width: 40%;
-  font-size: 18px;
+  width: 600px;
+  font-size: 20px;
 }
 .MenuBar {
   display: flex;
@@ -40,6 +40,10 @@ h1{
   text-decoration: underline;
   text-decoration-thickness: 2.5px;
   color: white;
+}
+.LinkItem{
+  color: white;
+  font-size: 20px;
 }
 
 .ServiceItem_1,
@@ -122,7 +126,7 @@ section {
   border: 1px solid rgb(1, 136, 211);
   border-radius: 5px;
   height: 120px;
-  width: 550px;
+  width: 700px;
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -150,7 +154,25 @@ section {
   justify-content: right;
 }
 .IndItemText{
- font-size: 18px;
+ font-size: 20px;
  padding: 5px;
 
+}
+.aboutTitleBg{
+  background-image: linear-gradient(135deg,rgb(1, 136, 211) 78%,rgb(0, 79, 136) 78%);
+  color: #ffff;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 15px;
+  padding-left: 400px;
+}
+.aboutTextcon{
+  width: -webkit-fill-available;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.aboutText{
+  width: 600px;
+  font-size: 20px;
 }

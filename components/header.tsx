@@ -11,10 +11,10 @@ export default function Header() {
         <h2>TSW Secuirty Solutions </h2>
         </div>
         <div className='MenuLinks'>
-          <a className='Link'><Link style={{color:'white'}} to="/">Home</Link></a>
-          <a className='Link'><Link style={{color:'white'}} to="/about">About</Link></a>
-          <a className='Link'><Link style={{color:'white'}} to="/services">Our Services</Link></a>
-          <a className='Link'><Link style={{color:'white'}} to="/contact">Contact Us</Link></a>
+          <a className='Link'><Link className='LinkItem' to="/">Home</Link></a>
+          <a className='Link'><Link className='LinkItem' to="/about">About</Link></a>
+          <a className='Link'><Link className='LinkItem' to="/services">Our Services</Link></a>
+          <a className='Link'><Link className='LinkItem' to="/contact">Contact Us</Link></a>
         </div>
         
       </div>

@@ -8,7 +8,7 @@ import HomeScreen from './screens/home';
 import Header from './components/header'
 import ServicesScreen from './screens/services'
 import AboutScreen from './screens/about'
-
+import Footer from './components/footer'
   const firebaseConfig = {
     apiKey: "AIzaSyBwW8H1NiKnG8k4x3VZo-PJIp-GSMlI1Ck",
     authDomain: "tswsecuritysolutions.firebaseapp.com",
@@ -36,6 +36,7 @@ export default function App() {
         <Route exact path='/about' element={ <AboutScreen/> } />
         
       </Routes>
+    <Footer/>
     </div>
   </Router>
 );

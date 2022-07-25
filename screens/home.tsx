@@ -26,23 +26,23 @@ export default function HomeScreen() {
         <div className='IndContainer'>
           <div className='IndItem'>
             <div className='IndItemTitle_Left'>Commercial</div>
-            <div className='IndItemText'>We cater to a number of commerical facilitys </div>
+            <div className='IndItemText'>Catering to small and large commercial business needs, TSW Security Solutions can provide the trained professional staff for any situation.
+            </div>
           </div>
 
           <div className='IndItem'>
-            <div className='IndItemText'>We cater to a number of commerical facilitys </div>
+            <div className='IndItemText'>The ever evoling need for security in and around government sites is what TSW Security Solutions provides professionally trained officers for. 
+            </div>
             <div className='IndItemTitle_Right'>Government</div>
           </div>
 
           <div className='IndItem'>
             <div className='IndItemTitle_Left'>Residential</div>
-            <div className='IndItemText'>We cater to a number of commerical facilitys </div>
+            <div className='IndItemText'>Offering professional staff for a range of duties to keep the community safe.
+            </div>
           </div>
         </div>
         <p></p>
-        </section>
-        <section className='Footer'> 
-        
         </section>
       </div>
     );
