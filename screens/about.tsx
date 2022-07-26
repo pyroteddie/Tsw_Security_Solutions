@@ -10,7 +10,7 @@ export default function AboutScreen() {
 Established in 2016, our business is family owned and run. We Are heavily involved in our community and supporting our locals. We provide regular training for our personnel, ensuring their skills are second to none.
 Reach out to us to learn more about TSW, our business and staff, and how we can best serve you.</p>
 </div>
-<img src='/asset/AboutPic.png'/>
+<img src='../asset/AboutPic.jpg' alt='about pic'/>
 
       </div>
     );
