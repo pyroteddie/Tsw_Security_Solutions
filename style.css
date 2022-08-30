@@ -32,8 +32,13 @@ h1{
 .ContactButton{
   background-color: rgb(1, 136, 211);
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   width: 150px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  border: .5px solid black;
+  box-shadow: RGBA(0,0,0,0.3) 2px 2px;
 }
 
 .TitleBackGround{
