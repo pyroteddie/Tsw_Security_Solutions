@@ -5,10 +5,10 @@ import '../style.css';
 export default function ServicesScreen() {
     return (
       <div>
-        <h1>Our Services</h1>
+        <div className='aboutTitleBg'>Our Services</div>
         <p> </p>
         <div className='DivBox'>
-        <h2>Drug & Alcohol Testing</h2>
+        <h2 className='TitleBackGround'>Drug & Alcohol Testing</h2>
           <p>Business owners are responsible for ensuring the safety of staff and customers.  Your business could be at significant risk if workers are under the influence of drugs or alcohol. TSW rises to the occasion to meeting client specific needs, we offer on-site drugs and alcohol screening.
               The on-site oral fluid drug testing we offer provides for the use of quick, quality assured test devices, standardised and supervised/observed collections, accurate interpretation by experienced collectors and quick turn-around times for results.</p>
 
@@ -22,7 +22,7 @@ export default function ServicesScreen() {
               </ul>
         </div>
         <div className='DivBox'>
-        <h2>Assest Protection</h2>
+        <h2 className='TitleBackGround'>Assest Protection</h2>
         <p>We provide uniformed security for your business, or event. Our trained professionals know how to manage people, diffuse aggression, and manage any situation that may arise in protecting your business or major event, including: 
           <ul>
             <li>Gate House</li>
@@ -35,7 +35,7 @@ export default function ServicesScreen() {
         </div>
 
         <div className='DivBox'>
-        <h2>Static Gaurd</h2>
+        <h2 className='TitleBackGround'>Static Gaurd</h2>
         <p>Business will encounter times where they are responsible for securing an entery point or equipment. TSW can provide this solution for your needs with officers trained 
 
         Generally, This includes manned services at access points, guarding equipment or valuables for loss prevention, crowd control, event security, screen security, or personal protection, essentially anything that requires a person to be on site. 
