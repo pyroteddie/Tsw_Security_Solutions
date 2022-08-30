@@ -3,26 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@react-navigation/native": "^6.0.0",
-    "@react-navigation/stack": "^6.2.1",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.2",
-    "firebase": "^9.8.1",
-    "github": "^14.0.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-native": "^0.68.2",
-    "react-native-gesture-handler": ">= 1.0.0",
-    "react-native-safe-area-context": ">= 3.0.0",
-    "react-native-screens": ">= 3.0.0",
-    "react-native-web": "^0.17.7",
-    "react-router-dom": "^6.3.0"
+    "react-dom": "^18.1.0"
   },
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "react-scripts-ts": "latest"
